@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://mediconnect-backend-azure.vercel.app'; // Production backend URL
+const API_BASE_URL = 'https://mediconnect-backend-jgj317j9a-kushals-projects-753e0804.vercel.app'; // Production backend URL
 
 export async function createAppointment(data, token) {
   const res = await fetch(`${API_BASE_URL}/api/appointments`, {
