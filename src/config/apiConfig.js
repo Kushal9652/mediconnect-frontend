@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:3000'; // Updated to match backend port
+const API_BASE_URL = 'https://mediconnect-backend-azure.vercel.app'; // Production backend URL
 
 export async function createAppointment(data, token) {
   const res = await fetch(`${API_BASE_URL}/api/appointments`, {
